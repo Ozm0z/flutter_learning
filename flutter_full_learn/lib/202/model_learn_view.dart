@@ -18,7 +18,7 @@ class _ModelLearnViewState extends State<ModelLearnView> {
     super.initState();
 
     //!user1
-    final user1 = PostModel(); //PostModele user1 diyip
+    final user1 = PostModel1(); //PostModele user1 diyip
     user1.body = 'hello'; //user1 in bodysini 'hello' yaptık
     //*bunun yerine 2 satır üstteki PostModel(); in noktalı virgülünün öncesine şu şekilde yazılabilirdi
     //?..userId = 1

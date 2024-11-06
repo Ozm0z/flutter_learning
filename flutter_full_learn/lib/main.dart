@@ -21,6 +21,7 @@ import 'package:flutter_full_learn/101/stateless_learn.dart';
 import 'package:flutter_full_learn/101/text_field_learn.dart';
 import 'package:flutter_full_learn/101/text_learn_view.dart';
 import 'package:flutter_full_learn/202/model_learn_view.dart';
+import 'package:flutter_full_learn/202/service/service_learn.dart';
 import 'package:flutter_full_learn/202/tab_learn.dart';
 import 'package:flutter_full_learn/core/random_image.dart';
 import 'package:flutter_full_learn/demos/color_demos_view.dart';
@@ -69,6 +70,6 @@ class MyApp extends StatelessWidget {
                 )),
         debugShowCheckedModeBanner: false,
         //home: const PageViewLearn());
-        home: const ModelLearnView());
+        home: const ServiceLearn());
   }
 }
